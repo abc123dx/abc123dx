@@ -1,22 +1,22 @@
 <p align="center">
   <img
     src="./assets/profile-header.svg"
-    alt="abc123dx — agent systems, modern runtimes, and trustworthy tools"
+    alt="abc123dx — Agent 系统、现代运行时与可信开发工具"
     width="100%"
   />
 </p>
 
 <p align="center">
-  <a href="#modern-systems-lab">Modern lab</a>
+  <a href="#现代计算实验室">现代计算实验室</a>
   ·
-  <a href="#established-ai-tooling">AI tooling</a>
+  <a href="#ai-工具链">AI 工具链</a>
   ·
-  <a href="#engineering-map">Engineering map</a>
+  <a href="#工程版图">工程版图</a>
 </p>
 
 <p align="center">
-  I build small, inspectable systems for agent interoperability, portable
-  runtimes, local-first reliability, GPU compute, and WebAssembly.
+  构建小而可审查的系统：Agent 互操作、可移植运行时、Local-first 可靠性、
+  GPU 计算与 WebAssembly。
   <br />
   <sub>Agent 系统 · 现代运行时 · 可信开发工具</sub>
 </p>
@@ -31,12 +31,12 @@
   <code>WASI 0.3</code>
 </p>
 
-## Modern systems lab
+## 现代计算实验室
 
 <p align="center">
   <img
     src="./assets/lab-constellation.svg"
-    alt="Five independent labs for Agent protocols, edge runtimes, WebGPU, local-first synchronization, and WASI components"
+    alt="五个独立实验室：Agent 协议、边缘运行时、WebGPU、Local-first 同步与 WASI 组件"
     width="100%"
   />
 </p>
@@ -52,20 +52,20 @@
       <p>
         <code>Python</code>
         <code>A2A 1.0</code>
-        <code>v0.1.0</code>
+        <code>v0.1.1 中文版</code>
       </p>
       <p>
-        Offline-first contract testing for Agent Cards and A2A HTTP+JSON
-        behavior, with a bounded loopback mock agent and portable evidence.
+        面向 Agent Card 与 A2A HTTP+JSON 行为的离线优先契约测试，内置有界
+        回环模拟 Agent，并生成可移植的测试证据。
       </p>
       <p>
-        <strong>54 tests · 9/9 scenarios</strong><br />
-        Terminal · JSON · JUnit · self-contained HTML
+        <strong>56 项测试 · 9/9 场景通过</strong><br />
+        中文终端 · JSON · JUnit · 单文件 HTML
       </p>
       <p>
-        <a href="https://github.com/abc123dx/a2a-contract-lab">Repository</a>
+        <a href="https://github.com/abc123dx/a2a-contract-lab">查看仓库</a>
         ·
-        <a href="https://github.com/abc123dx/a2a-contract-lab/releases/tag/v0.1.0">Release</a>
+        <a href="https://github.com/abc123dx/a2a-contract-lab/releases/tag/v0.1.1">中文版发布</a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -77,20 +77,20 @@
       <p>
         <code>TypeScript</code>
         <code>WGSL</code>
-        <code>v0.1.0</code>
+        <code>v0.1.1 中文版</code>
       </p>
       <p>
-        An interactive compute workbench with real vector, matrix, and image
-        convolution kernels, deterministic CPU references, and local metrics.
+        交互式 GPU 计算工作台，包含真实向量、矩阵与图像卷积内核，并提供
+        确定性 CPU 基准和本地性能指标。
       </p>
       <p>
-        <strong>39 tests · 3 WGSL kernels</strong><br />
-        Median / p95 timing · error validation · JSON export
+        <strong>39 项测试 · 3 个 WGSL 内核</strong><br />
+        中位数 / p95 · 误差校验 · JSON 导出
       </p>
       <p>
-        <a href="https://github.com/abc123dx/webgpu-kernel-lab">Repository</a>
+        <a href="https://github.com/abc123dx/webgpu-kernel-lab">查看仓库</a>
         ·
-        <a href="https://github.com/abc123dx/webgpu-kernel-lab/releases/tag/v0.1.0">Release</a>
+        <a href="https://github.com/abc123dx/webgpu-kernel-lab/releases/tag/v0.1.1">中文版发布</a>
       </p>
     </td>
   </tr>
@@ -104,20 +104,20 @@
       <p>
         <code>Python + JS</code>
         <code>WinterTC</code>
-        <code>v0.1.0</code>
+        <code>v0.1.1 中文版</code>
       </p>
       <p>
-        Behavior-level portability probes for Node, Deno, and Bun across web
-        APIs, streams, crypto, compression, timing, and structured data.
+        面向 Node、Deno 与 Bun 的行为级可移植性探针，覆盖 Web API、流、
+        加密、压缩、计时与结构化数据。
       </p>
       <p>
-        <strong>37 tests · 21 network-free probes</strong><br />
-        JSON · Markdown · HTML · cross-runtime comparison
+        <strong>39 项测试 · 21 个无网络探针</strong><br />
+        JSON · Markdown · HTML · 跨运行时比较
       </p>
       <p>
-        <a href="https://github.com/abc123dx/edge-api-atlas">Repository</a>
+        <a href="https://github.com/abc123dx/edge-api-atlas">查看仓库</a>
         ·
-        <a href="https://github.com/abc123dx/edge-api-atlas/releases/tag/v0.1.0">Release</a>
+        <a href="https://github.com/abc123dx/edge-api-atlas/releases/tag/v0.1.1">中文版发布</a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -130,20 +130,20 @@
         <code>TypeScript</code>
         <code>Automerge 3</code>
         <code>Yjs</code>
-        <code>v0.1.0</code>
+        <code>v0.1.1 中文版</code>
       </p>
       <p>
-        Deterministic CRDT fault injection for partitions, packet loss,
-        duplication, reordering, latency, and replica restarts.
+        为网络分区、丢包、重复、乱序、延迟和副本重启提供确定性 CRDT
+        故障注入与收敛验证。
       </p>
       <p>
-        <strong>35 tests · exact cross-process replay</strong><br />
-        CLI · interactive explorer · JSON / single-file HTML
+        <strong>36 项测试 · 跨进程精确回放</strong><br />
+        中文 CLI · 交互式浏览器 · JSON / 单文件 HTML
       </p>
       <p>
-        <a href="https://github.com/abc123dx/sync-chaos-lab">Repository</a>
+        <a href="https://github.com/abc123dx/sync-chaos-lab">查看仓库</a>
         ·
-        <a href="https://github.com/abc123dx/sync-chaos-lab/releases/tag/v0.1.0">Release</a>
+        <a href="https://github.com/abc123dx/sync-chaos-lab/releases/tag/v0.1.1">中文版发布</a>
       </p>
     </td>
   </tr>
@@ -157,28 +157,27 @@
       <p>
         <code>Rust</code>
         <code>WASI 0.3</code>
-        <code>Component Model</code>
-        <code>v0.1.0</code>
+        <code>组件模型</code>
+        <code>v0.1.1 中文版</code>
       </p>
       <p>
-        Static interface and composition analysis for WebAssembly core modules,
-        Components, WIT contracts, and WASI capabilities. It inventories,
-        snapshots, diffs, and composes artifacts without executing them.
+        面向 WebAssembly 核心模块、组件、WIT 契约与 WASI 能力的静态
+        接口分析；无需执行构件即可完成盘点、快照、差异和组合检查。
       </p>
       <p>
-        <strong>50 tests · Rustfmt clean · Clippy clean</strong><br />
-        Terminal · stable JSON · Mermaid · macOS arm64 release binary
+        <strong>50 项测试 · Rustfmt / Clippy 全部通过</strong><br />
+        中文终端 · 稳定 JSON · Mermaid · macOS arm64 二进制
       </p>
       <p>
-        <a href="https://github.com/abc123dx/wasi-component-lens">Repository</a>
+        <a href="https://github.com/abc123dx/wasi-component-lens">查看仓库</a>
         ·
-        <a href="https://github.com/abc123dx/wasi-component-lens/releases/tag/v0.1.0">Release</a>
+        <a href="https://github.com/abc123dx/wasi-component-lens/releases/tag/v0.1.1">中文版发布</a>
       </p>
     </td>
   </tr>
 </table>
 
-## Established AI tooling
+## AI 工具链
 
 <table>
   <tr>
@@ -194,26 +193,25 @@
         <code>v0.1.0</code>
       </p>
       <p>
-        A local, deterministic supply-chain scanner for MCP configurations and
-        Agent Skills. It turns risky configuration into reviewable terminal,
-        JSON, HTML, or SARIF findings without executing discovered commands.
+        本地确定性供应链扫描器，面向 MCP 配置与 Agent Skill；无需执行发现的
+        命令，即可将风险配置转成可审查的终端、JSON、HTML 或 SARIF 结果。
       </p>
       <ul>
-        <li>12 inspectable security rules with redacted evidence</li>
-        <li>Read-only discovery and four portable report formats</li>
-        <li>Composite action for pull-request security gates</li>
+        <li>12 条可审查安全规则，证据自动脱敏</li>
+        <li>只读发现与四种可移植报告格式</li>
+        <li>用于 Pull Request 安全门禁的组合 Action</li>
       </ul>
       <p>
-        <strong>Verified locally · 2026-07-17</strong><br />
-        27/27 Vitest tests · ESLint clean · TypeScript typecheck clean
+        <strong>本地验证 · 2026-07-17</strong><br />
+        27/27 Vitest · ESLint · TypeScript 类型检查全部通过
       </p>
       <p>
         <a href="https://github.com/abc123dx/agent-skill-aegis">
-          Repository
+          查看仓库
         </a>
         ·
         <a href="https://github.com/abc123dx/agent-skill-aegis/releases/tag/v0.1.0">
-          v0.1.0 release
+          v0.1.0 发布
         </a>
       </p>
     </td>
@@ -229,26 +227,25 @@
         <code>v0.1.0</code>
       </p>
       <p>
-        A local-first CLI that turns OTLP JSON and JSONL traces into practical
-        AI-agent diagnostics: critical paths, tool failures, retries, token
-        usage, and explicit cost estimates.
+        Local-first 命令行工具，将 OTLP JSON / JSONL 轨迹转成实用的 AI Agent
+        诊断：关键路径、工具失败、重试、Token 用量和显式成本估算。
       </p>
       <ul>
-        <li>Terminal, stable JSON, and self-contained HTML reports</li>
-        <li>User-supplied pricing rules; no silently aging price table</li>
-        <li>No backend, account, or telemetry upload</li>
+        <li>终端、稳定 JSON 与单文件 HTML 报告</li>
+        <li>由用户提供定价规则，不内置悄然过期的价格表</li>
+        <li>无需后端、账号或遥测上传</li>
       </ul>
       <p>
-        <strong>Verified locally · 2026-07-17</strong><br />
-        14/14 pytest tests · Ruff clean · strict mypy clean
+        <strong>本地验证 · 2026-07-17</strong><br />
+        14/14 pytest · Ruff · strict mypy 全部通过
       </p>
       <p>
         <a href="https://github.com/abc123dx/traceforge-otel">
-          Repository
+          查看仓库
         </a>
         ·
         <a href="https://github.com/abc123dx/traceforge-otel/releases/tag/v0.1.0">
-          v0.1.0 release
+          v0.1.0 发布
         </a>
       </p>
     </td>
@@ -267,50 +264,43 @@
       <code>Next.js 16</code> <code>TypeScript</code>
     </td>
     <td width="58%" valign="middle">
-      One OpenAI-compatible endpoint for multiple model providers, with
-      routing, failover, quotas, health checks, usage logs, and local SQLite
-      storage. Currently in active early development.
+      用一个 OpenAI 兼容端点接入多个模型提供商，支持路由、故障转移、配额、
+      健康检查、用量日志和本地 SQLite 存储。目前仍在早期持续开发中。
     </td>
     <td width="18%" align="right" valign="middle">
       <a href="https://github.com/abc123dx/Model-Relay-Station">
-        View project →
+        查看项目 →
       </a>
     </td>
   </tr>
 </table>
 
-## Engineering map
+## 工程版图
 
 <p align="center">
   <img
     src="./assets/project-system.svg"
-    alt="Conceptual focus map: route model access, guard agent configuration, and observe runtime traces"
+    alt="工程版图：路由模型访问、守护 Agent 配置并观察运行轨迹"
     width="100%"
   />
 </p>
 
 <p align="center">
   <sub>
-    A conceptual map of the work, not a claim that the three repositories form
-    one bundled platform.
+    这是项目方向的概念图，不代表三个仓库组成一个捆绑平台。
   </sub>
 </p>
 
-## Current focus
+## 当前方向
 
-- **Interoperable agents** — make Agent Cards, protocol behavior, and trust
-  boundaries testable without depending on a remote service.
-- **Portable compute** — compare runtime behavior at the web API, WebGPU, and
-  WebAssembly component boundaries.
-- **Reproducible distributed systems** — turn CRDT partitions and delivery
-  faults into seeded traces that can be replayed exactly.
-- **Inspectable AI infrastructure** — keep routing, configuration security, and
-  runtime evidence local and understandable.
+- **可互操作 Agent** — 无需依赖远程服务，即可测试 Agent Card、协议行为和信任边界。
+- **可移植计算** — 比较 Web API、WebGPU 与 WebAssembly 组件边界的运行时行为。
+- **可复现分布式系统** — 将 CRDT 网络分区与传输故障转成可精确回放的种子轨迹。
+- **可审查 AI 基础设施** — 让路由、配置安全与运行证据保持本地、清晰、可理解。
 
-## Build philosophy
+## 构建理念
 
-> Small interfaces. Explicit trust. Observable behavior.
+> 小接口，显式信任，可观察行为。
 
-Local-first when practical, typed at the boundaries, and explicit about
-limitations. Every featured lab ships with runnable code, documentation,
-tests, a release, and no account or telemetry requirement.
+在合适的地方坚持 Local-first，在边界处保持类型明确，并诚实说明限制。
+每个重点实验室都提供可运行代码、中文文档、测试与正式发布，无需账号或遥测。

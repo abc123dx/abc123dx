@@ -9,9 +9,8 @@
 >
   <title id="title">Modern computing lab constellation</title>
   <desc id="description">
-    Five independent open-source laboratories covering agent interoperability,
-    edge runtimes, GPU compute, local-first synchronization, and WASI
-    components.
+    五个独立开源实验室，覆盖 Agent 互操作、边缘运行时、GPU 计算、
+    Local-first 同步与 WASI 组件。
   </desc>
 
   <defs>
@@ -81,10 +80,10 @@
         font-size="19"
         font-weight="650"
       >
-        MODERN SYSTEMS LAB
+        现代计算实验室
       </text>
       <text x="72" y="77" fill="#8398b6" font-size="12" letter-spacing="1.2">
-        FIVE INDEPENDENT PROJECTS
+        五个独立开源项目
       </text>
     </g>
 
@@ -99,13 +98,13 @@
       />
       <circle cx="29" cy="31" r="6" fill="#55d6be" />
       <text x="48" y="35" fill="#55d6be" font-size="11" font-weight="700" letter-spacing="1.6">
-        INTEROPERATE
+        互操作
       </text>
       <text x="24" y="72" fill="#edf5ff" font-size="20" font-weight="650">
-        Agent protocols
+        Agent 协议
       </text>
       <text x="24" y="95" fill="#8fa3bf" font-size="12.5">
-        A2A contracts · safe loopback tests
+        A2A 契约 · 安全回环测试
       </text>
     </g>
 
@@ -120,13 +119,13 @@
       />
       <circle cx="29" cy="31" r="6" fill="#61a8ff" />
       <text x="48" y="35" fill="#61a8ff" font-size="11" font-weight="700" letter-spacing="1.6">
-        PORT
+        可移植
       </text>
       <text x="24" y="72" fill="#edf5ff" font-size="20" font-weight="650">
-        Edge runtimes
+        边缘运行时
       </text>
       <text x="24" y="95" fill="#8fa3bf" font-size="12.5">
-        WinterTC-style behavior probes
+        WinterTC 风格行为探针
       </text>
     </g>
 
@@ -141,13 +140,13 @@
       />
       <circle cx="29" cy="31" r="6" fill="#73c5dc" />
       <text x="48" y="35" fill="#73c5dc" font-size="11" font-weight="700" letter-spacing="1.6">
-        COMPUTE
+        计算
       </text>
       <text x="24" y="72" fill="#edf5ff" font-size="20" font-weight="650">
-        WebGPU kernels
+        WebGPU 内核
       </text>
       <text x="24" y="95" fill="#8fa3bf" font-size="12.5">
-        WGSL benchmarks · CPU references
+        WGSL 基准 · CPU 参考实现
       </text>
     </g>
 
@@ -162,13 +161,13 @@
       />
       <circle cx="29" cy="31" r="6" fill="#8f9cff" />
       <text x="48" y="35" fill="#8f9cff" font-size="11" font-weight="700" letter-spacing="1.6">
-        CONVERGE
+        收敛
       </text>
       <text x="24" y="72" fill="#edf5ff" font-size="20" font-weight="650">
-        Local-first sync
+        Local-first 同步
       </text>
       <text x="24" y="95" fill="#8fa3bf" font-size="12.5">
-        CRDT faults · reproducible seeds
+        CRDT 故障 · 可复现种子
       </text>
     </g>
 
@@ -183,13 +182,13 @@
       />
       <circle cx="29" cy="31" r="6" fill="#9d87ff" />
       <text x="48" y="35" fill="#9d87ff" font-size="11" font-weight="700" letter-spacing="1.6">
-        COMPOSE
+        组合
       </text>
       <text x="24" y="72" fill="#edf5ff" font-size="20" font-weight="650">
-        WASI components
+        WASI 组件
       </text>
       <text x="24" y="95" fill="#8fa3bf" font-size="12.5">
-        interfaces · compatibility · capability
+        接口 · 兼容性 · 能力
       </text>
     </g>
 
