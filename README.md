@@ -1,36 +1,184 @@
 <p align="center">
   <img
     src="./assets/profile-header.svg"
-    alt="abc123dx — AI infrastructure, agent security, and observability"
+    alt="abc123dx — agent systems, modern runtimes, and trustworthy tools"
     width="100%"
   />
 </p>
 
 <p align="center">
-  <a href="#featured-work">Featured work</a>
+  <a href="#modern-systems-lab">Modern lab</a>
   ·
-  <a href="#focus-map">Focus map</a>
+  <a href="#established-ai-tooling">AI tooling</a>
   ·
-  <a href="#current-focus">Current focus</a>
+  <a href="#engineering-map">Engineering map</a>
 </p>
 
 <p align="center">
-  I build small, inspectable tools for AI systems: stable model interfaces,
-  deterministic trust checks, and runtime evidence that can stay local.
+  I build small, inspectable systems for agent interoperability, portable
+  runtimes, local-first reliability, GPU compute, and WebAssembly.
   <br />
-  <sub>AI 基础设施 · Agent 安全 · 可观测性</sub>
+  <sub>Agent 系统 · 现代运行时 · 可信开发工具</sub>
 </p>
 
 <p align="center">
   <code>TypeScript 5</code>&nbsp;
-  <code>Node.js 20+</code>&nbsp;
   <code>Python 3.11+</code>&nbsp;
-  <code>Next.js 16</code>&nbsp;
-  <code>OpenTelemetry</code>&nbsp;
-  <code>SARIF 2.1.0</code>
+  <code>Rust stable</code>&nbsp;
+  <code>A2A 1.0</code>&nbsp;
+  <code>WebGPU / WGSL</code>&nbsp;
+  <code>CRDT</code>&nbsp;
+  <code>WASI 0.3</code>
 </p>
 
-## Featured work
+## Modern systems lab
+
+<p align="center">
+  <img
+    src="./assets/lab-constellation.svg"
+    alt="Five independent labs for Agent protocols, edge runtimes, WebGPU, local-first synchronization, and WASI components"
+    width="100%"
+  />
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>
+        <a href="https://github.com/abc123dx/a2a-contract-lab">
+          A2A Contract Lab
+        </a>
+      </h3>
+      <p>
+        <code>Python</code>
+        <code>A2A 1.0</code>
+        <code>v0.1.0</code>
+      </p>
+      <p>
+        Offline-first contract testing for Agent Cards and A2A HTTP+JSON
+        behavior, with a bounded loopback mock agent and portable evidence.
+      </p>
+      <p>
+        <strong>54 tests · 9/9 scenarios</strong><br />
+        Terminal · JSON · JUnit · self-contained HTML
+      </p>
+      <p>
+        <a href="https://github.com/abc123dx/a2a-contract-lab">Repository</a>
+        ·
+        <a href="https://github.com/abc123dx/a2a-contract-lab/releases/tag/v0.1.0">Release</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>
+        <a href="https://github.com/abc123dx/webgpu-kernel-lab">
+          WebGPU Kernel Lab
+        </a>
+      </h3>
+      <p>
+        <code>TypeScript</code>
+        <code>WGSL</code>
+        <code>v0.1.0</code>
+      </p>
+      <p>
+        An interactive compute workbench with real vector, matrix, and image
+        convolution kernels, deterministic CPU references, and local metrics.
+      </p>
+      <p>
+        <strong>39 tests · 3 WGSL kernels</strong><br />
+        Median / p95 timing · error validation · JSON export
+      </p>
+      <p>
+        <a href="https://github.com/abc123dx/webgpu-kernel-lab">Repository</a>
+        ·
+        <a href="https://github.com/abc123dx/webgpu-kernel-lab/releases/tag/v0.1.0">Release</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>
+        <a href="https://github.com/abc123dx/edge-api-atlas">
+          Edge API Atlas
+        </a>
+      </h3>
+      <p>
+        <code>Python + JS</code>
+        <code>WinterTC</code>
+        <code>v0.1.0</code>
+      </p>
+      <p>
+        Behavior-level portability probes for Node, Deno, and Bun across web
+        APIs, streams, crypto, compression, timing, and structured data.
+      </p>
+      <p>
+        <strong>37 tests · 21 network-free probes</strong><br />
+        JSON · Markdown · HTML · cross-runtime comparison
+      </p>
+      <p>
+        <a href="https://github.com/abc123dx/edge-api-atlas">Repository</a>
+        ·
+        <a href="https://github.com/abc123dx/edge-api-atlas/releases/tag/v0.1.0">Release</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>
+        <a href="https://github.com/abc123dx/sync-chaos-lab">
+          Sync Chaos Lab
+        </a>
+      </h3>
+      <p>
+        <code>TypeScript</code>
+        <code>Automerge 3</code>
+        <code>Yjs</code>
+        <code>v0.1.0</code>
+      </p>
+      <p>
+        Deterministic CRDT fault injection for partitions, packet loss,
+        duplication, reordering, latency, and replica restarts.
+      </p>
+      <p>
+        <strong>35 tests · exact cross-process replay</strong><br />
+        CLI · interactive explorer · JSON / single-file HTML
+      </p>
+      <p>
+        <a href="https://github.com/abc123dx/sync-chaos-lab">Repository</a>
+        ·
+        <a href="https://github.com/abc123dx/sync-chaos-lab/releases/tag/v0.1.0">Release</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>
+        <a href="https://github.com/abc123dx/wasi-component-lens">
+          WASI Component Lens
+        </a>
+      </h3>
+      <p>
+        <code>Rust</code>
+        <code>WASI 0.3</code>
+        <code>Component Model</code>
+        <code>v0.1.0</code>
+      </p>
+      <p>
+        Static interface and composition analysis for WebAssembly core modules,
+        Components, WIT contracts, and WASI capabilities. It inventories,
+        snapshots, diffs, and composes artifacts without executing them.
+      </p>
+      <p>
+        <strong>50 tests · Rustfmt clean · Clippy clean</strong><br />
+        Terminal · stable JSON · Mermaid · macOS arm64 release binary
+      </p>
+      <p>
+        <a href="https://github.com/abc123dx/wasi-component-lens">Repository</a>
+        ·
+        <a href="https://github.com/abc123dx/wasi-component-lens/releases/tag/v0.1.0">Release</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+## Established AI tooling
 
 <table>
   <tr>
@@ -131,7 +279,7 @@
   </tr>
 </table>
 
-## Focus map
+## Engineering map
 
 <p align="center">
   <img
@@ -150,17 +298,19 @@
 
 ## Current focus
 
-- **Stable model boundaries** — keep provider routing, health, quotas, and
-  operational state behind one inspectable interface.
-- **Explicit trust boundaries** — make Agent Skill and MCP risks deterministic,
-  redacted, and easy to review before execution.
-- **Useful runtime evidence** — turn OpenTelemetry spans into portable,
-  explainable performance and reliability signals.
+- **Interoperable agents** — make Agent Cards, protocol behavior, and trust
+  boundaries testable without depending on a remote service.
+- **Portable compute** — compare runtime behavior at the web API, WebGPU, and
+  WebAssembly component boundaries.
+- **Reproducible distributed systems** — turn CRDT partitions and delivery
+  faults into seeded traces that can be replayed exactly.
+- **Inspectable AI infrastructure** — keep routing, configuration security, and
+  runtime evidence local and understandable.
 
 ## Build philosophy
 
 > Small interfaces. Explicit trust. Observable behavior.
 
-Local-first when practical, typed at the boundaries, and honest about
-limitations. A useful tool should remain understandable after the demo and
-reproducible from its repository.
+Local-first when practical, typed at the boundaries, and explicit about
+limitations. Every featured lab ships with runnable code, documentation,
+tests, a release, and no account or telemetry requirement.

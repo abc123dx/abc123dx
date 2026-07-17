@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="450"
+  viewBox="0 0 1200 450"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">Modern computing lab constellation</title>
+  <desc id="description">
+    Five independent open-source laboratories covering agent interoperability,
+    edge runtimes, GPU compute, local-first synchronization, and WASI
+    components.
+  </desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101f" />
+      <stop offset="0.52" stop-color="#0a1629" />
+      <stop offset="1" stop-color="#111a2d" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55d6be" />
+      <stop offset="0.5" stop-color="#61a8ff" />
+      <stop offset="1" stop-color="#9d87ff" />
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path
+        d="M30 0H0V30"
+        fill="none"
+        stroke="#9db2d2"
+        stroke-opacity="0.06"
+      />
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="450" rx="24" fill="url(#background)" />
+  <rect width="1200" height="450" rx="24" fill="url(#grid)" />
+  <rect
+    x="18"
+    y="18"
+    width="1164"
+    height="414"
+    rx="17"
+    fill="none"
+    stroke="#a7bad6"
+    stroke-opacity="0.11"
+  />
+
+  <g fill="none" stroke="#6d93c6" stroke-opacity="0.35" stroke-width="1.3">
+    <path d="M600 225L245 122" />
+    <path d="M600 225L955 122" />
+    <path d="M600 225L206 342" />
+    <path d="M600 225L600 354" />
+    <path d="M600 225L994 342" />
+  </g>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif">
+    <g transform="translate(452 164)">
+      <rect
+        width="296"
+        height="122"
+        rx="61"
+        fill="#0d1c32"
+        stroke="url(#accent)"
+        stroke-width="1.5"
+      />
+      <circle cx="48" cy="61" r="7" fill="#55d6be" filter="url(#glow)" />
+      <text
+        x="72"
+        y="52"
+        fill="#edf5ff"
+        font-size="19"
+        font-weight="650"
+      >
+        MODERN SYSTEMS LAB
+      </text>
+      <text x="72" y="77" fill="#8398b6" font-size="12" letter-spacing="1.2">
+        FIVE INDEPENDENT PROJECTS
+      </text>
+    </g>
+
+    <g transform="translate(87 65)">
+      <rect
+        width="316"
+        height="114"
+        rx="15"
+        fill="#0c1a2e"
+        stroke="#55d6be"
+        stroke-opacity="0.52"
+      />
+      <circle cx="29" cy="31" r="6" fill="#55d6be" />
+      <text x="48" y="35" fill="#55d6be" font-size="11" font-weight="700" letter-spacing="1.6">
+        INTEROPERATE
+      </text>
+      <text x="24" y="72" fill="#edf5ff" font-size="20" font-weight="650">
+        Agent protocols
+      </text>
+      <text x="24" y="95" fill="#8fa3bf" font-size="12.5">
+        A2A contracts · safe loopback tests
+      </text>
+    </g>
+
+    <g transform="translate(797 65)">
+      <rect
+        width="316"
+        height="114"
+        rx="15"
+        fill="#0c1a2e"
+        stroke="#61a8ff"
+        stroke-opacity="0.52"
+      />
+      <circle cx="29" cy="31" r="6" fill="#61a8ff" />
+      <text x="48" y="35" fill="#61a8ff" font-size="11" font-weight="700" letter-spacing="1.6">
+        PORT
+      </text>
+      <text x="24" y="72" fill="#edf5ff" font-size="20" font-weight="650">
+        Edge runtimes
+      </text>
+      <text x="24" y="95" fill="#8fa3bf" font-size="12.5">
+        WinterTC-style behavior probes
+      </text>
+    </g>
+
+    <g transform="translate(48 285)">
+      <rect
+        width="316"
+        height="114"
+        rx="15"
+        fill="#0c1a2e"
+        stroke="#73c5dc"
+        stroke-opacity="0.52"
+      />
+      <circle cx="29" cy="31" r="6" fill="#73c5dc" />
+      <text x="48" y="35" fill="#73c5dc" font-size="11" font-weight="700" letter-spacing="1.6">
+        COMPUTE
+      </text>
+      <text x="24" y="72" fill="#edf5ff" font-size="20" font-weight="650">
+        WebGPU kernels
+      </text>
+      <text x="24" y="95" fill="#8fa3bf" font-size="12.5">
+        WGSL benchmarks · CPU references
+      </text>
+    </g>
+
+    <g transform="translate(442 297)">
+      <rect
+        width="316"
+        height="114"
+        rx="15"
+        fill="#0c1a2e"
+        stroke="#8f9cff"
+        stroke-opacity="0.52"
+      />
+      <circle cx="29" cy="31" r="6" fill="#8f9cff" />
+      <text x="48" y="35" fill="#8f9cff" font-size="11" font-weight="700" letter-spacing="1.6">
+        CONVERGE
+      </text>
+      <text x="24" y="72" fill="#edf5ff" font-size="20" font-weight="650">
+        Local-first sync
+      </text>
+      <text x="24" y="95" fill="#8fa3bf" font-size="12.5">
+        CRDT faults · reproducible seeds
+      </text>
+    </g>
+
+    <g transform="translate(836 285)">
+      <rect
+        width="316"
+        height="114"
+        rx="15"
+        fill="#0c1a2e"
+        stroke="#9d87ff"
+        stroke-opacity="0.52"
+      />
+      <circle cx="29" cy="31" r="6" fill="#9d87ff" />
+      <text x="48" y="35" fill="#9d87ff" font-size="11" font-weight="700" letter-spacing="1.6">
+        COMPOSE
+      </text>
+      <text x="24" y="72" fill="#edf5ff" font-size="20" font-weight="650">
+        WASI components
+      </text>
+      <text x="24" y="95" fill="#8fa3bf" font-size="12.5">
+        interfaces · compatibility · capability
+      </text>
+    </g>
+
+    <rect x="48" y="421" width="1104" height="2" rx="1" fill="url(#accent)" opacity="0.38" />
+  </g>
+</svg>

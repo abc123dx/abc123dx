@@ -9,8 +9,8 @@
 >
   <title id="title">abc123dx profile header</title>
   <desc id="description">
-    A restrained dark technical header representing AI infrastructure, agent
-    security, and observability.
+    A restrained dark technical header representing agent systems, modern
+    runtimes, and trustworthy developer tools.
   </desc>
 
   <defs>
@@ -152,7 +152,7 @@
         font-weight="500"
         letter-spacing="2.4"
       >
-        AI INFRASTRUCTURE · AGENT SECURITY · OBSERVABILITY
+        AGENT SYSTEMS · MODERN RUNTIMES · TRUSTWORTHY TOOLS
       </text>
       <text
         x="72"
@@ -161,7 +161,7 @@
         font-size="14"
         letter-spacing="0.8"
       >
-        typed boundaries / explicit trust / visible behavior
+        interoperable agents / portable compute / inspectable behavior
       </text>
     </g>
 
