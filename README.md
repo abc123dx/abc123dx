@@ -190,7 +190,7 @@
       <p>
         <code>TypeScript</code>
         <code>Node.js 20+</code>
-        <code>v0.1.0</code>
+        <code>v0.1.1 中文版</code>
       </p>
       <p>
         本地确定性供应链扫描器，面向 MCP 配置与 Agent Skill；无需执行发现的
@@ -210,8 +210,8 @@
           查看仓库
         </a>
         ·
-        <a href="https://github.com/abc123dx/agent-skill-aegis/releases/tag/v0.1.0">
-          v0.1.0 发布
+        <a href="https://github.com/abc123dx/agent-skill-aegis/releases/tag/v0.1.1">
+          中文版发布
         </a>
       </p>
     </td>
@@ -224,7 +224,7 @@
       <p>
         <code>Python 3.11+</code>
         <code>OpenTelemetry</code>
-        <code>v0.1.0</code>
+        <code>v0.1.1 中文版</code>
       </p>
       <p>
         Local-first 命令行工具，将 OTLP JSON / JSONL 轨迹转成实用的 AI Agent
@@ -237,15 +237,15 @@
       </ul>
       <p>
         <strong>本地验证 · 2026-07-17</strong><br />
-        14/14 pytest · Ruff · strict mypy 全部通过
+        15/15 pytest · Ruff · strict mypy 全部通过
       </p>
       <p>
         <a href="https://github.com/abc123dx/traceforge-otel">
           查看仓库
         </a>
         ·
-        <a href="https://github.com/abc123dx/traceforge-otel/releases/tag/v0.1.0">
-          v0.1.0 发布
+        <a href="https://github.com/abc123dx/traceforge-otel/releases/tag/v0.1.1">
+          中文版发布
         </a>
       </p>
     </td>
