@@ -59,7 +59,7 @@
         回环模拟 Agent，并生成可移植的测试证据。
       </p>
       <p>
-        <strong>56 项测试 · 9/9 场景通过</strong><br />
+        <strong>57 项测试 · 9/9 场景通过</strong><br />
         中文终端 · JSON · JUnit · 单文件 HTML
       </p>
       <p>
@@ -111,7 +111,7 @@
         加密、压缩、计时与结构化数据。
       </p>
       <p>
-        <strong>39 项测试 · 21 个无网络探针</strong><br />
+        <strong>40 项测试 · 21 个无网络探针</strong><br />
         JSON · Markdown · HTML · 跨运行时比较
       </p>
       <p>
