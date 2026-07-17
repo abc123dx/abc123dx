@@ -9,8 +9,7 @@
 >
   <title id="title">abc123dx profile header</title>
   <desc id="description">
-    A restrained dark technical header representing agent systems, modern
-    runtimes, and trustworthy developer tools.
+    展示 Agent 系统、现代运行时与可信开发工具的深色技术风格主页横幅。
   </desc>
 
   <defs>
@@ -150,18 +149,18 @@
         fill="#aabbd3"
         font-size="17"
         font-weight="500"
-        letter-spacing="2.4"
+        letter-spacing="1.4"
       >
-        AGENT SYSTEMS · MODERN RUNTIMES · TRUSTWORTHY TOOLS
+        AGENT 系统 · 现代运行时 · 可信开发工具
       </text>
       <text
         x="72"
         y="239"
         fill="#7387a4"
-        font-size="14"
-        letter-spacing="0.8"
+        font-size="15"
+        letter-spacing="0.4"
       >
-        interoperable agents / portable compute / inspectable behavior
+        互操作 Agent / 可移植计算 / 可审查行为
       </text>
     </g>
 
